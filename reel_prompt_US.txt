@@ -1,14 +1,3 @@
-Correct. The previous version unnecessarily repeats the inputs throughout the instructions.
-
-The better design is:
-
-* Define the **3 inputs once at the top**.
-* After that, refer only to **"the provided inputs"**, **"selected country"**, **"selected topic"**, and **"selected language"**.
-* Never repeat `<target country>`, `<topic>`, or `<language>` throughout the prompt.
-* The AI should internally carry those values through every phase.
-
-Here is the cleaner final version:
-
 # REAL-TIME TRENDING REEL — MASTER PROMPT
 
 ## INPUT
