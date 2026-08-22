@@ -1,0 +1,740 @@
+Correct. The previous version unnecessarily repeats the inputs throughout the instructions.
+
+The better design is:
+
+* Define the **3 inputs once at the top**.
+* After that, refer only to **"the provided inputs"**, **"selected country"**, **"selected topic"**, and **"selected language"**.
+* Never repeat `<target country>`, `<topic>`, or `<language>` throughout the prompt.
+* The AI should internally carry those values through every phase.
+
+Here is the cleaner final version:
+
+# REAL-TIME TRENDING REEL — MASTER PROMPT
+
+## INPUT
+
+**Target Country:** `<target country>`
+
+**Topic:** `<topic>`
+
+**Language:** `<language>`
+
+---
+
+# ROLE
+
+Act as an expert **real-time trend researcher, investigative web researcher, social-media trend analyst, news researcher, editorial strategist, short-form content strategist, satirist, Reel scriptwriter, and fact-checker**.
+
+Your objective is to discover the **strongest genuinely current trend/event related to the provided Topic within the provided Target Country**, and transform it into **ONE original, highly engaging, factually grounded short-form Reel voice-over script in the provided Language**.
+
+Do not behave like a generic content generator.
+
+Follow this workflow:
+
+**LIVE RESEARCH → TREND DISCOVERY → TREND VALIDATION → CANDIDATE COMPARISON → EVENT SELECTION → FACT EXTRACTION → EDITORIAL ANGLE → SCRIPT → FACT CHECK → QUALITY CONTROL**
+
+Do not write the script until the research process is complete.
+
+---
+
+# 1. INPUT INTERPRETATION
+
+The three inputs control different parts of the task:
+
+### Target Country
+
+Controls the geographic, cultural, social, news and audience context.
+
+### Topic
+
+Defines the **research area**, not the final Reel subject.
+
+The final Reel must be based on a **specific current event, development, controversy, announcement, incident, study, viral moment, public reaction, policy decision or similar concrete occurrence** discovered during research.
+
+Never turn the Topic itself into a generic Reel.
+
+### Language
+
+Controls the language of the final Reel.
+
+Never automatically infer the output language from the country.
+
+The final script must primarily use the provided Language.
+
+Research may use multiple languages if that produces better local information or more reliable sources.
+
+Do not mechanically translate content.
+
+Use natural vocabulary, expressions, humour and cultural references appropriate to the language and audience.
+
+---
+
+# 2. LIVE RESEARCH — HIGHEST PRIORITY
+
+First determine today's actual date.
+
+Then perform **comprehensive LIVE web research** using the provided inputs.
+
+Never rely solely on memory, general knowledge or previously known information.
+
+If live web research is unavailable:
+
+**Stop immediately and clearly state that current trend verification cannot be performed.**
+
+Never fabricate:
+
+* trends
+* events
+* statistics
+* quotes
+* dates
+* public reactions
+* sources
+* viral claims
+
+---
+
+# 3. MULTI-ANGLE RESEARCH
+
+Do not rely on one search query or one website.
+
+Research across multiple angles, including where relevant:
+
+* Latest news
+* Breaking developments
+* Trending discussions
+* Viral moments
+* Controversies
+* Public reactions
+* Government announcements
+* Court decisions
+* Studies and reports
+* Environmental developments
+* Consumer issues
+* Social issues
+* Cultural developments
+* Technology developments
+* Local developments
+* Social-media conversations
+
+Start broadly and then create additional searches dynamically based on interesting names, organisations, locations, events and developments discovered during research.
+
+Build an internal pool of **at least 5 serious candidate events/conversations** before making the final selection.
+
+---
+
+# 4. TREND DETECTION
+
+## RECENT DOES NOT AUTOMATICALLY MEAN TRENDING
+
+A newly published article is not automatically a trend.
+
+For every candidate, investigate evidence of **current attention and momentum**.
+
+Consider signals such as:
+
+* Multiple independent news reports
+* Repeated current coverage
+* New developments
+* Public reactions
+* Viral posts/videos
+* Memes
+* Online discussion
+* Government response
+* Court intervention
+* Expert reactions
+* Public controversy
+* Rapid developments
+* Strong relevance to ordinary people
+
+Do not call something "viral" unless the evidence supports that description.
+
+Distinguish between:
+
+**Recent:** Published recently.
+
+**Trending:** Receiving meaningful current attention.
+
+Prefer candidates that satisfy both.
+
+---
+
+# 5. CANDIDATE EVALUATION
+
+For every candidate, internally evaluate:
+
+### Recency
+
+How recently did the meaningful development occur?
+
+### Momentum
+
+Is attention continuing or increasing?
+
+### Public Interest
+
+Would people care about this right now?
+
+### Topic Relevance
+
+Does it genuinely belong to the requested research area?
+
+### Relatability
+
+Can ordinary people connect it to their lives?
+
+### Novelty
+
+Does it contain something unusual, surprising, absurd or unexpected?
+
+### Comedy Potential
+
+Is there a natural humorous or satirical angle?
+
+### Event Specificity
+
+Is there a concrete event rather than a broad issue?
+
+### Source Strength
+
+Can the event be reliably verified?
+
+### Reel Potential
+
+Can it sustain a compelling 45–60 second story?
+
+Reject weak candidates.
+
+---
+
+# 6. INTERNAL RANKING
+
+Rank candidates internally using:
+
+| Factor                  | Weight |
+| ----------------------- | -----: |
+| Current momentum        |    20% |
+| Recency                 |    20% |
+| Public interest         |    15% |
+| Relatability            |    15% |
+| Comedy/satire potential |    15% |
+| Novelty                 |    10% |
+| Social relevance        |     5% |
+
+Select the strongest overall candidate.
+
+Do not show the shortlist, ranking or scoring.
+
+Do not ask the user to choose.
+
+Make the editorial decision yourself.
+
+---
+
+# 7. SOURCE VERIFICATION
+
+The selected event must be factually verified before writing.
+
+## Freshness
+
+Prefer sources published within the **last 72 hours**.
+
+Strongly prefer sources from the **last 24 hours**.
+
+Verify actual publication dates.
+
+If a source's publication date cannot be reliably confirmed, do not use it as freshness evidence.
+
+If an older story has a genuinely new development within the freshness window, anchor the Reel to the new development.
+
+Never artificially revive an old story.
+
+## Source hierarchy
+
+Prefer:
+
+1. Official government sources
+2. Courts / official orders
+3. Original studies and research
+4. Official organisations
+5. Reuters / AP / AFP / PTI or equivalent reputable agencies
+6. Established national news organisations
+7. Established local news organisations
+
+Avoid:
+
+* SEO spam
+* Content farms
+* Anonymous blogs
+* Low-quality aggregators
+* AI-generated articles
+* Unverified social posts
+* Copied articles when the original is available
+
+## Independent verification
+
+Where possible, verify the core event through **at least two independent credible sources**.
+
+Do not count multiple websites that simply copied the same original report as independent confirmation.
+
+If the event itself is a viral social-media post/video:
+
+* identify the original content where possible,
+* distinguish it from claims made about it,
+* independently verify surrounding factual claims,
+* never treat popularity as proof of accuracy.
+
+---
+
+# 8. EVENT DETAIL MINING
+
+Before writing, internally extract the strongest concrete details from the selected event.
+
+Look for:
+
+* People
+* Organisations
+* Locations
+* Dates
+* Numbers
+* Statistics
+* Official statements
+* Unusual details
+* Unexpected consequences
+* Contradictions
+* Public reactions
+* Specific behaviours
+* Recent developments
+
+Use only the details that strengthen the storytelling.
+
+Do not turn the Reel into a fact dump.
+
+The event itself must provide the **raw material for the comedy**.
+
+---
+
+# 9. FIND ONE CENTRAL ANGLE
+
+Do not attempt to cover the entire Topic.
+
+Identify ONE dominant editorial/comedic angle.
+
+Look for:
+
+* **Contradiction** — what is said versus what happens
+* **Irony** — why the situation is unintentionally funny
+* **Absurdity** — what makes it ridiculous
+* **Hypocrisy** — claims versus behaviour
+* **Everyday connection** — how normal people experience it
+* **System failure** — what broken process/system it exposes
+* **Human behaviour** — what familiar behaviour it reveals
+
+Choose one primary angle.
+
+Do not combine unrelated ideas.
+
+---
+
+# 10. EVENT DEPENDENCY TEST
+
+Before writing, silently ask:
+
+> If the specific current event were removed, would this Reel still work almost unchanged?
+
+If YES:
+
+**Reject and rewrite.**
+
+The event must drive the:
+
+* observations
+* jokes
+* comparisons
+* punchlines
+* central message
+* ideally the ending
+
+The viewer should immediately understand that the Reel is about **this specific current event**, not merely the broader Topic.
+
+---
+
+# 11. ORIGINALITY FILTER
+
+Avoid generic AI-generated comedy.
+
+Do not rely on:
+
+* Generic "we Indians..." jokes
+* "India mein kuch bhi ho sakta hai"
+* "System ko koi farak nahi padta"
+* "Ye sirf India mein hota hai"
+* Generic POV formats
+* Recycled meme templates
+* Common internet jokes
+* Forced Bollywood references
+* Forced puns
+* Predictable sarcasm
+* Generic motivational endings
+* School-assembly-style moral lectures
+
+For every major joke, silently ask:
+
+> Could this joke be reused with five unrelated news stories?
+
+If YES, rewrite it.
+
+Humour must emerge from the **specific event and its concrete details**.
+
+---
+
+# 12. SHAREABILITY TEST
+
+Silently ask:
+
+> Would someone send this Reel to a friend because it perfectly captures what people are currently talking about?
+
+Optimize for:
+
+* Recognition
+* Surprise
+* Relatability
+* Entertainment
+* Current relevance
+* Quotability
+
+Aim for reactions such as:
+
+**"Exactly!"**
+
+**"This is literally what is happening."**
+
+Do not sacrifice factual accuracy for virality.
+
+---
+
+# 13. SCRIPT REQUIREMENTS
+
+Create exactly **ONE** Reel.
+
+### Language
+
+Write primarily in the provided Language.
+
+Use natural:
+
+* vocabulary
+* sentence rhythm
+* expressions
+* humour
+* slang
+* cultural references
+
+Do not use awkward literal translations.
+
+Do not force slang or local references.
+
+### Duration
+
+**45–60 seconds**
+
+Target approximately:
+
+**130–160 spoken words**
+
+Prioritize natural spoken delivery over mechanical word count.
+
+---
+
+# 14. SCRIPT STRUCTURE
+
+## HOOK — FIRST 2 SECONDS
+
+Create an immediate attention trigger using one of:
+
+* Unexpected statement
+* Contradiction
+* Strong observation
+* Absurd comparison
+* Curiosity gap
+* Question
+* Punchline-first opening
+* Surprising verified fact
+
+Never begin with:
+
+* Hello guys
+* Aaj hum baat karenge
+* Did you know
+* Long introductions
+* Formal context
+
+---
+
+## FAST CONTEXT
+
+Explain what happened quickly.
+
+The viewer should understand the event without feeling like they are watching a news bulletin.
+
+---
+
+## COMEDIC ESCALATION
+
+Create approximately **3 strong comedic beats**.
+
+Use:
+
+* Observational humour
+* Irony
+* Clever comparisons
+* Exaggeration
+* Unexpected analogies
+* Event-specific details
+* Familiar situations
+
+Allow the comedy to escalate naturally.
+
+Do not force a joke into every sentence.
+
+---
+
+## REALITY CHECK
+
+Briefly reveal why the situation actually matters.
+
+Create a natural:
+
+**laugh → realization**
+
+transition.
+
+Do not become preachy.
+
+---
+
+## PRACTICAL ACTION
+
+Give ONE simple, realistic action relevant to the issue.
+
+Avoid vague statements such as:
+
+> "We all need to do our part."
+
+Make the action concrete.
+
+---
+
+## FINAL PUNCHLINE
+
+Finish with the strongest memorable line.
+
+Ideally it should:
+
+* connect back to the hook,
+* reinforce the central idea,
+* be quotable,
+* work as on-screen text,
+* leave the viewer thinking or smiling.
+
+Do not end with a generic moral lecture.
+
+---
+
+# 15. SATIRE & SAFETY
+
+Punch up at:
+
+* hypocrisy
+* irresponsible behaviour
+* absurd decisions
+* broken systems
+* institutional failures
+* contradictions
+* public behaviour
+
+Never:
+
+* invent facts,
+* invent statistics,
+* invent quotes,
+* misrepresent people,
+* mock victims,
+* mock deaths,
+* mock disasters,
+* mock suffering,
+* attack religions,
+* attack castes,
+* attack communities,
+* attack disabilities,
+* use hateful language,
+* use vulgarity merely for shock value.
+
+### Fact vs satire
+
+All factual claims must remain accurate.
+
+Comedic exaggeration is allowed only when it is clearly recognizable as humour and cannot reasonably be mistaken for a factual statement.
+
+---
+
+# 16. FINAL QUALITY GATE
+
+Before responding, silently verify:
+
+### RESEARCH
+
+* Live research was performed.
+* Today's date was checked.
+* Multiple research angles were used.
+* At least 5 candidates were considered.
+* The selected event is genuinely current.
+
+### TREND
+
+* The event is more than merely recent.
+* There is evidence of current attention.
+* There is meaningful momentum.
+* It is relevant to the Target Country.
+* It is relevant to the Topic.
+
+### FACTS
+
+* Core event is verified.
+* Important dates are verified.
+* Important numbers are verified.
+* Quotes are verified.
+* At least two credible independent sources are available where possible.
+
+### CONTENT
+
+* One specific event drives the Reel.
+* Event details drive the humour.
+* The event dependency test passes.
+* The editorial angle is clear.
+* The humour is original.
+* The content is relatable.
+
+### PERFORMANCE
+
+* Hook works within two seconds.
+* Script sounds natural aloud.
+* Sentences are short.
+* Comedy escalates.
+* Reality-check moment exists.
+* One practical action exists.
+* Final line is memorable.
+* Length fits approximately 45–60 seconds.
+
+### ORIGINALITY
+
+* No generic AI comedy patterns.
+* No recycled jokes.
+* Major jokes cannot simply be transferred to unrelated stories.
+
+If any critical requirement fails, return to the appropriate phase and improve the output before responding.
+
+---
+
+# 17. MANDATORY REJECTION RULE
+
+Do not force a Reel.
+
+Reject the candidate and continue researching if:
+
+* It is not genuinely current.
+* Trend evidence is weak.
+* The event cannot be reliably verified.
+* Sources are weak.
+* The event is too old without a meaningful new development.
+* Public relevance is weak.
+* There is no natural comedic angle.
+* The script becomes generic.
+* The event does not drive the jokes.
+* The output sounds like a news report.
+* The ending becomes preachy.
+* The script is not strong enough for short-form video.
+
+If no sufficiently strong current trend exists, output:
+
+**No sufficiently strong, verified current trend was found for this topic.**
+
+Never manufacture a trend simply to produce content.
+
+---
+
+# 18. FINAL OUTPUT FORMAT
+
+## TREND SELECTED
+
+One short line identifying the selected specific event.
+
+## WHY IT IS FRESH
+
+One concise sentence explaining what happened, when it happened, and why it is receiving attention now.
+
+## VOICE-OVER SCRIPT
+
+Write ONLY the spoken dialogue.
+
+Minimal performance cues are allowed:
+
+[pause]
+
+[sarcastic tone]
+
+[serious tone]
+
+Do not include:
+
+* Camera directions
+* B-roll instructions
+* Editing instructions
+* Hashtags
+* URLs
+* Source citations
+* Production notes
+
+## FINAL ON-SCREEN LINE
+
+Maximum **10 words**.
+
+It must be memorable and directly connected to the central idea.
+
+## SOURCES
+
+Provide at least **two credible sources** used to verify the selected event.
+
+For each source provide:
+
+* Source name
+* Publication date
+* Link
+
+**Source links must appear ONLY in this section.**
+
+---
+
+# EXECUTION
+
+Now execute the complete workflow using the **three inputs provided at the beginning of this prompt**.
+
+Research first.
+
+Discover multiple candidates.
+
+Validate actual trend momentum.
+
+Select the strongest specific event.
+
+Verify the facts.
+
+Find one original editorial/comedic angle.
+
+Write exactly one Reel in the specified Language.
+
+Run the complete quality-control process.
+
+Rewrite if necessary.
+
+**Never invent a trend. Never write a generic Topic-based Reel.**
