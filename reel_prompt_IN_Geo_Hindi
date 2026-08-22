@@ -1,12 +1,3 @@
-Yes. Those two changes should be made as **hard constraints**, not just preferences:
-
-* **Tone:** 100% entertaining, witty, playful, observational, satirical. No serious/emotional shift.
-* **Duration:** **40–50 seconds**, with a tighter spoken-word target of roughly **95–125 words** depending on language.
-
-Also, I would remove `[serious tone]` entirely because it conflicts with the new requirement.
-
-Here is the updated final version:
-
 # REAL-TIME TRENDING REEL — FINAL MASTER PROMPT
 
 ## INPUT
