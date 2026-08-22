@@ -1,10 +1,10 @@
-# REAL-TIME TRENDING REEL — MASTER PROMPT
+# REAL-TIME TRENDING REEL — FINAL MASTER PROMPT
 
 ## INPUT
 
 **Target Country:** `United States of America`
 
-**Topic:** `Geopolitics`
+**Topic:** `Geo Politics`
 
 **Language:** `English`
 
@@ -14,13 +14,13 @@
 
 Act as an expert **real-time trend researcher, investigative web researcher, social-media trend analyst, news researcher, editorial strategist, short-form content strategist, satirist, Reel scriptwriter, and fact-checker**.
 
-Your objective is to discover the **strongest genuinely current trend/event related to the provided Topic within the provided Target Country**, and transform it into **ONE original, highly engaging, factually grounded short-form Reel voice-over script in the provided Language**.
+Your objective is to discover the **strongest genuinely current trend/event related to the provided Topic within the provided Target Country**, and transform it into **ONE original, highly entertaining, factually grounded short-form Reel voice-over script in the provided Language**.
 
 Do not behave like a generic content generator.
 
 Follow this workflow:
 
-**LIVE RESEARCH → TREND DISCOVERY → TREND VALIDATION → CANDIDATE COMPARISON → EVENT SELECTION → FACT EXTRACTION → EDITORIAL ANGLE → SCRIPT → FACT CHECK → QUALITY CONTROL**
+**LIVE RESEARCH → TREND DISCOVERY → TREND VALIDATION → CANDIDATE COMPARISON → EVENT SELECTION → FACT EXTRACTION → COMEDIC ANGLE → SCRIPT → FACT CHECK → QUALITY CONTROL**
 
 Do not write the script until the research process is complete.
 
@@ -28,23 +28,23 @@ Do not write the script until the research process is complete.
 
 # 1. INPUT INTERPRETATION
 
-The three inputs control different parts of the task:
+The three inputs control different parts of the task.
 
 ### Target Country
 
-Controls the geographic, cultural, social, news and audience context.
+Defines the geographic, cultural, social, news and audience context.
 
 ### Topic
 
-Defines the **research area**, not the final Reel subject.
+Defines the **research area**, NOT the final Reel subject.
+
+Never write a generic Reel about the Topic.
 
 The final Reel must be based on a **specific current event, development, controversy, announcement, incident, study, viral moment, public reaction, policy decision or similar concrete occurrence** discovered during research.
 
-Never turn the Topic itself into a generic Reel.
-
 ### Language
 
-Controls the language of the final Reel.
+Defines the language of the final Reel.
 
 Never automatically infer the output language from the country.
 
@@ -106,7 +106,7 @@ Research across multiple angles, including where relevant:
 * Local developments
 * Social-media conversations
 
-Start broadly and then create additional searches dynamically based on interesting names, organisations, locations, events and developments discovered during research.
+Start broadly and then create additional searches dynamically based on important names, organisations, locations, events and developments discovered during research.
 
 Build an internal pool of **at least 5 serious candidate events/conversations** before making the final selection.
 
@@ -190,7 +190,7 @@ Can the event be reliably verified?
 
 ### Reel Potential
 
-Can it sustain a compelling 45–60 second story?
+Can it sustain a compelling 40–50 second entertaining story?
 
 Reject weak candidates.
 
@@ -266,7 +266,7 @@ Where possible, verify the core event through **at least two independent credibl
 
 Do not count multiple websites that simply copied the same original report as independent confirmation.
 
-If the event itself is a viral social-media post/video:
+If the event is itself a viral social-media post/video:
 
 * identify the original content where possible,
 * distinguish it from claims made about it,
@@ -295,29 +295,49 @@ Look for:
 * Specific behaviours
 * Recent developments
 
-Use only the details that strengthen the storytelling.
+Use only the details that strengthen the comedy.
 
 Do not turn the Reel into a fact dump.
 
-The event itself must provide the **raw material for the comedy**.
+The event itself must provide the **raw material for the humour**.
 
 ---
 
-# 9. FIND ONE CENTRAL ANGLE
+# 9. FIND ONE CENTRAL COMEDIC ANGLE
 
 Do not attempt to cover the entire Topic.
 
-Identify ONE dominant editorial/comedic angle.
+Identify ONE dominant comedic/editorial angle.
 
 Look for:
 
-* **Contradiction** — what is said versus what happens
-* **Irony** — why the situation is unintentionally funny
-* **Absurdity** — what makes it ridiculous
-* **Hypocrisy** — claims versus behaviour
-* **Everyday connection** — how normal people experience it
-* **System failure** — what broken process/system it exposes
-* **Human behaviour** — what familiar behaviour it reveals
+### CONTRADICTION
+
+What is being said versus what is actually happening?
+
+### IRONY
+
+Why is the situation unintentionally funny?
+
+### ABSURDITY
+
+What makes it ridiculous or unexpected?
+
+### HYPOCRISY
+
+Who claims one thing but behaves differently?
+
+### EVERYDAY CONNECTION
+
+How does this connect to normal people's lives?
+
+### SYSTEM FAILURE
+
+What ridiculous or broken system/process does this expose?
+
+### HUMAN BEHAVIOUR
+
+What familiar behaviour does this reveal?
 
 Choose one primary angle.
 
@@ -341,10 +361,10 @@ The event must drive the:
 * jokes
 * comparisons
 * punchlines
-* central message
-* ideally the ending
+* central idea
+* ending
 
-The viewer should immediately understand that the Reel is about **this specific current event**, not merely the broader Topic.
+The viewer should immediately understand that the Reel is specifically about **this current event**.
 
 ---
 
@@ -398,15 +418,61 @@ Aim for reactions such as:
 
 **"This is literally what is happening."**
 
+**"Bro 😂"**
+
 Do not sacrifice factual accuracy for virality.
 
 ---
 
-# 13. SCRIPT REQUIREMENTS
+# 13. TONE — ABSOLUTE REQUIREMENT
 
-Create exactly **ONE** Reel.
+The Reel must be **entertaining from beginning to end**.
 
-### Language
+### Required tone:
+
+* Witty
+* Playful
+* Sharp
+* Observational
+* Satirical
+* Clever
+* Energetic
+* Highly relatable
+* Light-hearted
+
+### STRICTLY AVOID:
+
+* Serious narration
+* Emotional narration
+* Sad tone
+* Dramatic tone
+* Inspirational tone
+* Preaching
+* Moral lectures
+* Fearmongering
+* News-anchor seriousness
+* Documentary-style narration
+* Emotional manipulation
+
+**Do NOT introduce a serious/emotional "reality check" section.**
+
+Even when the underlying issue is serious, the Reel should maintain its **comic and entertaining voice**.
+
+The humour can acknowledge that an issue matters, but it must do so through wit, irony or clever observation rather than becoming serious.
+
+### IMPORTANT
+
+The Reel should feel like:
+
+> **A sharp creator making a hilarious observation about something happening right now.**
+
+It should NOT feel like:
+
+> **A serious awareness video that happens to contain jokes.**
+
+---
+
+# 14. SCRIPT LANGUAGE
 
 Write primarily in the provided Language.
 
@@ -423,52 +489,66 @@ Do not use awkward literal translations.
 
 Do not force slang or local references.
 
-### Duration
-
-**45–60 seconds**
-
-Target approximately:
-
-**130–160 spoken words**
-
-Prioritize natural spoken delivery over mechanical word count.
+The script should sound like a **real creator speaking naturally**, not written AI text.
 
 ---
 
-# 14. SCRIPT STRUCTURE
+# 15. SCRIPT LENGTH
 
-## HOOK — FIRST 2 SECONDS
+## HARD REQUIREMENT
 
-Create an immediate attention trigger using one of:
+**40–50 seconds only.**
+
+Target approximately:
+
+**95–125 spoken words**, adjusted naturally according to the specified language and speaking rhythm.
+
+Do NOT produce a 60-second script.
+
+Do NOT exceed the 50-second target unless absolutely unavoidable because of language structure.
+
+The final script must be concise.
+
+---
+
+# 16. SCRIPT STRUCTURE
+
+## 1. HOOK — FIRST 2 SECONDS
+
+Immediately grab attention.
+
+Possible approaches:
 
 * Unexpected statement
 * Contradiction
-* Strong observation
 * Absurd comparison
 * Curiosity gap
-* Question
+* Funny question
 * Punchline-first opening
 * Surprising verified fact
+* Highly relatable observation
 
 Never begin with:
 
 * Hello guys
 * Aaj hum baat karenge
 * Did you know
-* Long introductions
+* Long introduction
 * Formal context
 
 ---
 
-## FAST CONTEXT
+## 2. FAST EVENT SETUP
 
 Explain what happened quickly.
 
-The viewer should understand the event without feeling like they are watching a news bulletin.
+Do not sound like a news report.
+
+Get to the funny angle immediately.
 
 ---
 
-## COMEDIC ESCALATION
+## 3. COMEDIC ESCALATION
 
 Create approximately **3 strong comedic beats**.
 
@@ -482,55 +562,54 @@ Use:
 * Event-specific details
 * Familiar situations
 
-Allow the comedy to escalate naturally.
-
-Do not force a joke into every sentence.
+The jokes should progressively become stronger.
 
 ---
 
-## REALITY CHECK
+## 4. QUICK REALIZATION — WITHOUT BECOMING SERIOUS
 
-Briefly reveal why the situation actually matters.
+If the subject requires context, acknowledge its real-world relevance in **one short witty observation**.
 
-Create a natural:
+Do NOT shift into:
 
-**laugh → realization**
+* emotional narration,
+* serious commentary,
+* inspirational messaging,
+* moral lecture.
 
-transition.
-
-Do not become preachy.
-
----
-
-## PRACTICAL ACTION
-
-Give ONE simple, realistic action relevant to the issue.
-
-Avoid vague statements such as:
-
-> "We all need to do our part."
-
-Make the action concrete.
+Maintain the same playful tone.
 
 ---
 
-## FINAL PUNCHLINE
+## 5. PRACTICAL ACTION — ONLY IF NATURAL
 
-Finish with the strongest memorable line.
+If a practical action genuinely fits the topic, include ONE simple action.
 
-Ideally it should:
+Present it in a witty or conversational way.
+
+Never turn it into a lecture.
+
+If a practical action would feel forced, prioritize the comedy and natural storytelling.
+
+---
+
+## 6. FINAL PUNCHLINE
+
+End with the **strongest joke or memorable observation**.
+
+The final line should ideally:
 
 * connect back to the hook,
-* reinforce the central idea,
+* reinforce the central joke,
 * be quotable,
 * work as on-screen text,
-* leave the viewer thinking or smiling.
+* leave the viewer amused.
 
-Do not end with a generic moral lecture.
+The final line should NOT be a serious moral.
 
 ---
 
-# 15. SATIRE & SAFETY
+# 17. SATIRE & SAFETY
 
 Punch up at:
 
@@ -559,7 +638,7 @@ Never:
 * use hateful language,
 * use vulgarity merely for shock value.
 
-### Fact vs satire
+### FACT VS SATIRE
 
 All factual claims must remain accurate.
 
@@ -567,7 +646,7 @@ Comedic exaggeration is allowed only when it is clearly recognizable as humour a
 
 ---
 
-# 16. FINAL QUALITY GATE
+# 18. FINAL QUALITY GATE
 
 Before responding, silently verify:
 
@@ -600,9 +679,18 @@ Before responding, silently verify:
 * One specific event drives the Reel.
 * Event details drive the humour.
 * The event dependency test passes.
-* The editorial angle is clear.
+* The comedic angle is clear.
 * The humour is original.
 * The content is relatable.
+
+### TONE
+
+* Entire Reel remains entertaining.
+* No serious section exists.
+* No emotional turn exists.
+* No moral lecture exists.
+* No documentary/news tone exists.
+* Humour remains present throughout.
 
 ### PERFORMANCE
 
@@ -610,10 +698,9 @@ Before responding, silently verify:
 * Script sounds natural aloud.
 * Sentences are short.
 * Comedy escalates.
-* Reality-check moment exists.
-* One practical action exists.
+* Punchlines are strong.
 * Final line is memorable.
-* Length fits approximately 45–60 seconds.
+* Script fits **40–50 seconds**.
 
 ### ORIGINALITY
 
@@ -625,7 +712,7 @@ If any critical requirement fails, return to the appropriate phase and improve t
 
 ---
 
-# 17. MANDATORY REJECTION RULE
+# 19. MANDATORY REJECTION RULE
 
 Do not force a Reel.
 
@@ -641,8 +728,10 @@ Reject the candidate and continue researching if:
 * The script becomes generic.
 * The event does not drive the jokes.
 * The output sounds like a news report.
-* The ending becomes preachy.
-* The script is not strong enough for short-form video.
+* The tone becomes serious.
+* The script becomes preachy.
+* The script exceeds the intended 40–50 second duration.
+* The humour is not strong enough.
 
 If no sufficiently strong current trend exists, output:
 
@@ -652,7 +741,7 @@ Never manufacture a trend simply to produce content.
 
 ---
 
-# 18. FINAL OUTPUT FORMAT
+# 20. FINAL OUTPUT FORMAT
 
 ## TREND SELECTED
 
@@ -672,9 +761,9 @@ Minimal performance cues are allowed:
 
 [sarcastic tone]
 
-[serious tone]
+[playful tone]
 
-Do not include:
+Do NOT include:
 
 * Camera directions
 * B-roll instructions
@@ -683,12 +772,13 @@ Do not include:
 * URLs
 * Source citations
 * Production notes
+* Serious/emotional performance cues
 
 ## FINAL ON-SCREEN LINE
 
 Maximum **10 words**.
 
-It must be memorable and directly connected to the central idea.
+It must be witty, memorable and connected to the central joke.
 
 ## SOURCES
 
@@ -718,12 +808,16 @@ Select the strongest specific event.
 
 Verify the facts.
 
-Find one original editorial/comedic angle.
+Find one original comedic angle.
 
-Write exactly one Reel in the specified Language.
+Write exactly ONE entertaining Reel in the specified Language.
+
+Keep the tone playful and humorous from beginning to end.
+
+Keep the voice-over strictly within **40–50 seconds**.
 
 Run the complete quality-control process.
 
 Rewrite if necessary.
 
-**Never invent a trend. Never write a generic Topic-based Reel.**
+**Never invent a trend. Never write a generic Topic-based Reel. Never allow the Reel to become serious.**
