@@ -1,3 +1,5 @@
+---
+
 # INPUT
 
 **VOICE-OVER SCRIPT:**
@@ -11,165 +13,293 @@
 Act as an expert:
 
 * Visual Storyboard Director
-* Cinematic Concept Artist
 * AI Image Prompt Engineer
 * Character Design Director
 * Visual Continuity Supervisor
 * Short-form Video Director
 * Cinematographer
+* 3D Animation Art Director
+* Comedy Visual Director
 * Scene Composition Specialist
 
-Your task is to analyse the provided **VOICE-OVER SCRIPT**, understand its meaning regardless of the language in which it is written, and convert it into a **complete scene-by-scene visual plan with production-ready image-generation prompts**.
+Your task is to analyse the provided **VOICE-OVER SCRIPT**, understand its meaning regardless of the language in which it is written, and convert it into a **complete scene-by-scene visual storyboard with production-ready image-generation prompts**.
 
-These images will later be used as keyframes/source visuals for generating a video.
+The generated images will later be used as **keyframes/source images for AI video generation**.
 
-Therefore, do NOT simply illustrate individual sentences.
+Therefore, you are not simply illustrating the words.
 
-Instead, transform the voice-over into a **coherent visual story**.
+You are designing a **coherent visual story that can be animated into a short-form video**.
 
 ---
 
 # 1. LANGUAGE UNDERSTANDING
 
-The voice-over may be written in **ANY LANGUAGE**.
+The voice-over can be written in **ANY LANGUAGE**.
 
 First:
 
-1. Identify the language automatically.
-2. Understand the meaning, context, humour, emotion, sarcasm, references and implied meaning.
-3. Do NOT translate the voice-over unnecessarily.
-4. Think in terms of the meaning and visual intent rather than individual words.
-5. Generate the final image prompts in **clear English**, unless another output language is explicitly requested.
-6. Preserve culturally important elements from the original language.
+1. Automatically identify the language.
+2. Understand the complete meaning.
+3. Understand sarcasm, humour, irony, metaphors, idioms and cultural references.
+4. Understand the intended joke rather than translating individual words literally.
+5. Do not unnecessarily translate the voice-over.
+6. Generate image-generation prompts in clear English unless explicitly instructed otherwise.
+7. Preserve culturally important visual elements from the original language.
 
-### IMPORTANT
+### CRITICAL RULE
 
-Do not create visuals based only on literal word translation.
+Do not create visuals based purely on literal translation.
 
-Understand:
+Think:
 
-**What is being said → What is actually meant → What should the audience SEE.**
+**What is being said → What does it actually mean → What should the viewer SEE?**
 
 ---
 
 # 2. PRIMARY OBJECTIVE
 
-Convert the voice-over into a sequence of visually powerful scenes.
+Convert the voice-over into a visually coherent sequence.
 
 Each scene must:
 
-* represent a meaningful portion of the voice-over,
-* visually communicate the narration,
+* represent a meaningful portion of the narration,
+* communicate the intended idea visually,
 * have a clear subject,
+* have a clear action,
 * have a clear environment,
-* have strong composition,
-* be visually interesting,
-* work as a standalone image,
-* connect naturally with the previous and next scene,
+* contain visual humour where appropriate,
+* connect naturally with surrounding scenes,
+* work as an individual image,
 * be suitable as a video-generation keyframe.
 
-The final result should feel like a **professionally directed short-form video**, not a collection of unrelated AI images.
+The final sequence should feel like a **professionally directed animated Reel**, not a collection of unrelated AI-generated pictures.
 
 ---
 
-# 3. FIRST ANALYSE THE VOICE-OVER
+# 3. GLOBAL VISUAL STYLE — CRITICAL
 
-Before generating scene prompts, silently analyse:
+The voice-over is intended for a **light, entertaining, witty and humorous short-form Reel**.
 
-### A. Narrative Structure
+Therefore, the visual world must NOT look like realistic live-action cinema.
+
+## DEFAULT STYLE
+
+Use:
+
+**Premium stylized 3D animated cinematic style with expressive characters, simplified anatomy, soft materials, clean shapes, appealing facial expressions, subtle exaggeration, polished environments and a playful social-media aesthetic.**
+
+The overall visual language should feel like:
+
+**High-quality animated commercial + modern 3D short film + social-media comedy**
+
+NOT:
+
+**Live-action movie + documentary + realistic news footage**
+
+---
+
+# 4. STRICT REALISM LIMIT
+
+## DO NOT CREATE:
+
+* Photorealistic humans
+* Hyper-realistic humans
+* Photographic portraits
+* Documentary photography
+* Realistic skin pores
+* Highly detailed skin texture
+* Hyper-realistic eyes
+* Realistic wrinkles
+* Gritty human faces
+* Photorealistic body anatomy
+* Dark live-action aesthetics
+* Documentary-style environments
+* Serious cinematic realism
+
+Characters must remain **clearly stylized and animated**.
+
+They can be human-inspired, but they must not look like actual photographed people.
+
+### Desired perception:
+
+> "A polished animated character in a funny story."
+
+NOT:
+
+> "A real person photographed in a realistic scene."
+
+---
+
+# 5. CHARACTER DESIGN
+
+Characters are one of the most important elements.
+
+Use:
+
+* Simplified facial structures
+* Soft facial features
+* Expressive eyes
+* Clearly readable expressions
+* Slightly exaggerated reactions
+* Smooth stylized skin/material rendering
+* Clean clothing shapes
+* Slightly exaggerated body language
+* Consistent proportions
+* Appealing animated design
+
+Characters should feel:
+
+**friendly + expressive + humorous + approachable**
+
+Avoid making them:
+
+**dark + gritty + intimidating + hyper-realistic**
+
+---
+
+# 6. CONTROLLED EXAGGERATION
+
+Use subtle visual exaggeration to strengthen comedy.
+
+Examples:
+
+* Raised eyebrows
+* Wide eyes
+* Confused expression
+* Deadpan expression
+* Exaggerated surprise
+* Awkward smile
+* Disbelief
+* Sarcastic expression
+* Dramatic hand gesture
+* Funny posture
+* Slightly exaggerated reaction
+
+The exaggeration should remain polished and visually appealing.
+
+Do NOT turn every scene into an extreme cartoon caricature.
+
+---
+
+# 7. VISUAL TONE
+
+The complete sequence must feel:
+
+* Light
+* Playful
+* Witty
+* Energetic
+* Humorous
+* Charming
+* Expressive
+* Approachable
+
+Even if the voice-over discusses a serious real-world topic, **do not automatically make the visuals serious**.
+
+Avoid:
+
+* Dark mood
+* Tragedy aesthetics
+* Emotional manipulation
+* Gritty realism
+* Fear-based imagery
+* Depressing visuals
+* Documentary aesthetics
+
+The result should visually communicate:
+
+> **"This is smart, entertaining satire."**
+
+---
+
+# 8. FIRST ANALYSE THE VOICE-OVER
+
+Before creating scenes, silently analyse the entire voice-over.
 
 Identify:
+
+### Narrative Structure
 
 * Hook
 * Setup
 * Main event
 * Comedic beats
 * Escalation
-* Reaction
-* Punchline
+* Punchlines
 * Ending
 
-### B. Visual Opportunities
+### Visual Opportunities
 
 Identify:
 
-* Characters
+* Main character
+* Supporting characters
 * Locations
 * Objects
 * Actions
 * Reactions
-* Environmental changes
-* Important visual details
-* Symbolic visual opportunities
-* Comedic visual opportunities
+* Visual contrasts
+* Comedic opportunities
+* Symbolic opportunities
+* Important environmental details
 
-### C. Character Requirements
+### Character Requirements
 
 Determine:
 
-* Who is the main character?
+* Who appears?
+* Who is the protagonist?
 * Who are supporting characters?
+* Which characters recur?
 * What does each character do?
-* What personality should they visually communicate?
-* Which character appears repeatedly?
+* What personality should the visuals communicate?
 
-### D. Environment Requirements
+### Environment Requirements
 
 Determine:
 
 * Location
+* Architecture
 * Time of day
 * Weather
-* Architecture
-* Cultural setting
 * Props
 * Background activity
+* Cultural context
 * Lighting
 * Atmosphere
 
 ---
 
-# 4. DETERMINE THE VISUAL STYLE
+# 9. VISUAL STYLE CONSISTENCY
 
-Choose ONE coherent visual style for the entire video.
+Choose ONE primary visual style for the entire sequence.
 
-The style must match the voice-over's personality.
+Do not randomly change:
 
-For example:
+* character design,
+* rendering style,
+* environment style,
+* colour language,
+* lighting style,
+* realism level.
 
-* Cinematic realistic
-* Stylized cinematic
-* 3D animated
-* High-quality cartoon
-* Semi-realistic illustration
-* Photorealistic
-* Stop-motion inspired
-* Graphic/advertising style
-
-Do NOT randomly change visual styles between scenes.
-
-### Default
-
-If the voice-over does not clearly imply another style, use:
-
-**High-quality cinematic stylized realism suitable for social-media video.**
-
-The visual style must remain consistent across every scene.
+Every scene must feel like it belongs to the **same animated universe**.
 
 ---
 
-# 5. CHARACTER BIBLE
+# 10. CHARACTER BIBLE
 
-Before writing scene prompts, create a **MASTER CHARACTER PROFILE** for every recurring character.
+Before creating scene prompts, create a **MASTER CHARACTER PROFILE** for every recurring character.
 
-For each recurring character define:
+For each character define:
 
-### Identity
+### Character Identity
 
-* Character name/label
+* Character ID
+* Role
 * Approximate age
-* Gender presentation when relevant
-* Nationality/cultural context when relevant
+* Gender presentation when visually relevant
+* Cultural/national context when relevant
 
 ### Appearance
 
@@ -185,8 +315,8 @@ For each recurring character define:
 ### Clothing
 
 * Exact outfit
-* Colours
-* Fabric/style
+* Main colours
+* Style
 * Footwear
 * Accessories
 * Props
@@ -194,28 +324,30 @@ For each recurring character define:
 ### Personality
 
 * Expression style
-* Attitude
 * Energy
-* Comedic personality
+* Attitude
 * Typical body language
+* Comedic personality
 
 ### Visual Signature
 
-Give each recurring character **2–3 distinctive visual identifiers**.
+Give each recurring character **2–3 distinctive identifiers**.
 
-For example:
+Examples:
 
-* distinctive hairstyle
-* glasses
-* moustache
-* yellow backpack
-* specific jacket
+* Specific hairstyle
+* Glasses
+* Moustache
+* Distinctive jacket
+* Backpack
+* Hat
+* Watch
 
 These identifiers must remain consistent.
 
 ---
 
-# 6. CHARACTER CONSISTENCY — CRITICAL
+# 11. CHARACTER CONSISTENCY — ABSOLUTE RULE
 
 If the same character appears in multiple scenes:
 
@@ -229,162 +361,162 @@ Maintain:
 * Same clothing
 * Same accessories
 * Same body proportions
-* Same visual style
+* Same character style
+* Same visual identifiers
 
 unless the story explicitly requires a change.
 
-Every scene prompt involving the character must repeat enough of the character description to preserve visual consistency.
+Every image prompt involving a recurring character must repeat enough of the character description to preserve consistency.
 
-Do not assume that an image generator will remember previous scenes.
+Never rely on:
 
----
+> "same character as previous scene"
 
-# 7. BACKGROUND & LOCATION CONTINUITY
-
-Treat the environment as a continuous world.
-
-If multiple scenes occur in the same location:
-
-Maintain:
-
-* Same architecture
-* Same major objects
-* Same environmental identity
-* Same colour/material language
-* Same geographic/cultural cues
-* Same time-of-day logic
-
-You may change:
-
-* camera position,
-* framing,
-* character position,
-* action,
-* foreground elements,
-
-but do not accidentally transform the location.
-
-Example:
-
-If Scene 1 establishes an Indian middle-class apartment balcony, later balcony scenes should clearly remain the same apartment environment.
+because image generators may not remember previous prompts.
 
 ---
 
-# 8. SCENE BREAKDOWN
+# 12. ENVIRONMENT BIBLE
 
-Break the voice-over into **visual scenes based on meaning and action**, not simply sentence count.
+Create a **MASTER ENVIRONMENT PROFILE** for every recurring location.
 
-For a 40–50 second Reel, normally create approximately:
+Define:
+
+* Location
+* Architecture
+* Major background elements
+* Furniture/objects
+* Props
+* Time of day
+* Weather
+* Lighting
+* Colour identity
+* Cultural/environmental details
+* Continuity requirements
+
+If multiple scenes occur in the same place, maintain the same visual identity.
+
+Camera position may change.
+
+Character position may change.
+
+Action may change.
+
+But the environment must still clearly belong to the same world.
+
+---
+
+# 13. SCENE BREAKDOWN
+
+For a typical short-form Reel, create approximately:
 
 **8–12 scenes**
 
-Adjust this when necessary.
+Adjust the number when the voice-over genuinely requires it.
 
-Do NOT create a new scene for every sentence if several sentences can be represented by one powerful visual.
+Do NOT create one scene per sentence automatically.
 
-Likewise, split a sentence into multiple scenes if the visual storytelling requires it.
+Instead, create scenes based on:
+
+* Meaning
+* Action
+* Visual change
+* Comedy beat
+* Camera opportunity
+* Story progression
 
 Each scene should generally represent approximately:
 
-**3–6 seconds of video**
+**3–6 seconds**
 
-unless a deliberate cinematic pause or transition requires otherwise.
+unless a deliberate visual pause requires otherwise.
 
 ---
 
-# 9. VISUAL STORYTELLING RULE
+# 14. VISUAL STORYTELLING
 
 Every scene must answer:
 
 > **What should the viewer SEE while hearing this part of the voice-over?**
 
-Do not merely repeat the narration visually.
+Do not simply display literal translations.
 
 Example:
 
-Voice-over says:
+If the voice-over jokes about an absurd government solution, do not simply show a government building.
 
-> "The government announced another solution."
+Instead, create a visually humorous situation that communicates the absurdity of the solution.
 
-Do not simply generate:
+The visual should add:
 
-> "A government announcement."
-
-Instead, interpret the comedic context and create a visual situation that communicates the idea.
-
-The image should add **visual humour, context or storytelling value**.
+* Context
+* Comedy
+* Character reaction
+* Visual irony
+* Storytelling value
 
 ---
 
-# 10. SHOW, DON'T EXPLAIN
+# 15. SHOW, DON'T EXPLAIN
 
-Prefer visual storytelling over text.
-
-Use:
+Prefer:
 
 * Facial expressions
 * Body language
-* Environment
-* Props
 * Actions
-* Composition
+* Props
+* Environmental storytelling
 * Visual contrast
 * Symbolism
 * Situational comedy
 
-Avoid relying on text inside images.
+Avoid relying on text.
 
-### IMPORTANT
-
-Do not place:
+Do NOT automatically put:
 
 * subtitles,
 * captions,
 * speech bubbles,
 * headlines,
-* UI text,
 * labels,
-* signs,
+* UI elements
 
-inside the generated image unless the voice-over specifically requires a visible real-world sign or object.
+inside generated images.
 
-If text is genuinely required, describe exactly what the text represents, but do not depend on it to communicate the scene.
-
----
-
-# 11. COMEDIC VISUAL INTERPRETATION
-
-Because the source is a Reel voice-over, visual humour is important.
-
-Look for opportunities such as:
-
-* exaggerated reactions,
-* awkward body language,
-* visual irony,
-* absurd situations,
-* unexpected scale,
-* background comedy,
-* visual contradictions,
-* exaggerated but believable situations,
-* deadpan expressions,
-* character reactions.
-
-The humour should feel **smart and situational**, not childish or random.
-
-Do not add unrelated visual jokes simply to make the image funny.
-
-Every visual joke must support the voice-over.
+Only include visible text when the story genuinely requires a real-world sign, poster, screen or similar object.
 
 ---
 
-# 12. CINEMATIC DIRECTION
+# 16. VISUAL COMEDY
 
-Every scene prompt must specify appropriate cinematic details.
+Find opportunities for:
+
+* Exaggerated reactions
+* Awkward expressions
+* Visual irony
+* Absurd situations
+* Unexpected scale
+* Background comedy
+* Visual contradictions
+* Deadpan reactions
+* Funny body language
+* Character-object interaction
+
+The humour must support the voice-over.
+
+Do not add random visual jokes that are unrelated to the story.
+
+---
+
+# 17. CINEMATIC COMPOSITION
+
+Every scene should have intentional visual direction.
 
 Consider:
 
 ### Camera
 
+* Establishing shot
 * Wide shot
 * Medium shot
 * Medium close-up
@@ -392,8 +524,6 @@ Consider:
 * Over-the-shoulder
 * Low angle
 * High angle
-* Tracking-style composition
-* Establishing shot
 
 ### Composition
 
@@ -401,363 +531,403 @@ Consider:
 * Central composition
 * Leading lines
 * Foreground/background separation
-* Negative space
 * Symmetry
-* Visual hierarchy
+* Negative space
+* Strong visual hierarchy
 
-### Lens / Depth
+### Depth
 
-Use appropriate cinematic language such as:
+Use:
 
-* shallow depth of field
-* natural perspective
-* cinematic depth
-* environmental wide shot
+* Foreground elements
+* Midground character
+* Background environment
+* Soft depth of field where appropriate
 
-Do not randomly add technical camera specifications when they do not improve the scene.
+Do not make every scene a close-up.
 
-### Lighting
-
-Specify appropriate:
-
-* natural daylight
-* warm indoor light
-* overcast light
-* sunset light
-* dramatic lighting
-* soft diffused light
-* practical lighting
-
-Lighting must remain consistent with the environment and time.
+Create visual variety while maintaining continuity.
 
 ---
 
-# 13. CHARACTER ACTION
+# 18. LIGHTING
 
-Do not only describe what characters look like.
-
-Describe exactly:
-
-* What they are doing
-* Where their hands are
-* Their body posture
-* Their facial expression
-* Their direction of gaze
-* Their interaction with objects
-* Their interaction with other characters
-
-Actions should be **physically understandable and easy to animate later**.
-
-Avoid impossible poses or overly complicated interactions.
-
----
-
-# 14. VIDEO-FIRST IMAGE DESIGN
-
-Remember:
-
-These images will later be converted into video.
-
-Therefore, every image should provide enough visual information for motion generation.
+Lighting must support the playful animated style.
 
 Prefer:
 
-* clear subject separation,
-* readable body positions,
-* natural poses,
-* clear foreground/background layers,
-* environmental depth,
-* visually obvious actions,
-* consistent character orientation,
-* realistic object placement.
+* Soft daylight
+* Warm indoor lighting
+* Bright overcast lighting
+* Pleasant evening light
+* Soft cinematic lighting
+* Clean practical lighting
+
+Avoid unnecessarily:
+
+* Dark shadows
+* Horror lighting
+* Gritty lighting
+* Heavy dramatic contrast
+* Tragic colour grading
+
+Lighting should remain consistent with time and location.
+
+---
+
+# 19. CHARACTER ACTION
+
+Describe exactly:
+
+* What the character is doing
+* Hand position
+* Body posture
+* Facial expression
+* Direction of gaze
+* Interaction with objects
+* Interaction with other characters
+
+Actions must be physically understandable and easy to animate later.
 
 Avoid:
 
-* extremely crowded compositions,
-* confusing overlapping characters,
-* impossible anatomy,
-* ambiguous actions,
-* characters fused with objects,
-* excessive tiny details,
-* chaotic backgrounds.
+* impossible poses,
+* complicated overlapping actions,
+* unnatural limbs,
+* ambiguous interactions.
 
 ---
 
-# 15. TRANSITION & CONTINUITY PLANNING
+# 20. VIDEO-FIRST IMAGE DESIGN
 
-For every scene, consider how it connects to the next scene.
+These images will later be converted into video.
 
-Use visual continuity through:
+Therefore, design them as **animation-ready keyframes**.
 
-* character position,
-* direction of movement,
-* camera direction,
-* location,
-* props,
-* lighting,
-* colour palette,
-* visual motifs.
+Prefer:
 
-Avoid abrupt visual changes unless intentionally used as a comedic transition.
+* Clear character silhouettes
+* Clear body positions
+* Readable actions
+* Foreground/midground/background separation
+* Environmental depth
+* Stable object placement
+* Natural poses
+* Clear direction of movement
+
+Avoid:
+
+* Extremely crowded compositions
+* Confusing overlaps
+* Tiny characters
+* Impossible anatomy
+* Characters merged with objects
+* Chaotic backgrounds
+* Excessive micro-details
 
 ---
 
-# 16. ASPECT RATIO
+# 21. TRANSITION & CONTINUITY
 
-Design all scenes for:
+Plan how each scene connects to the next.
+
+Maintain continuity through:
+
+* Character position
+* Movement direction
+* Camera direction
+* Location
+* Props
+* Lighting
+* Colour palette
+* Visual motifs
+
+Abrupt changes should only happen when intentionally used as a comedic transition.
+
+---
+
+# 22. ASPECT RATIO
+
+All scenes must be designed for:
 
 **Vertical 9:16**
 
-The composition must work naturally for Instagram Reels / Shorts / TikTok-style vertical video.
+Suitable for:
 
-Keep important subjects away from extreme edges where possible.
+* Instagram Reels
+* YouTube Shorts
+* TikTok
+
+Keep important characters and objects inside a safe central composition.
+
+Avoid placing critical visual information extremely close to the edges.
 
 ---
 
-# 17. IMAGE PROMPT CONSTRUCTION
+# 23. SELF-CONTAINED IMAGE PROMPTS
 
-Every generated image prompt must be **self-contained**.
+Every image-generation prompt must be **fully self-contained**.
 
-Do not write:
+Never write:
 
-> "Same character as previous scene."
+> "Same character as Scene 1."
 
-Instead, repeat the required character description.
-
-Do not write:
+Never write:
 
 > "Same background."
 
-Explicitly describe the relevant environment again.
+Instead, explicitly describe the relevant character and environment again.
 
-Each image-generation prompt must contain:
+Every prompt must contain:
 
 ### SUBJECT
 
-Who/what is the primary focus?
+Primary visual focus.
 
 ### CHARACTER
 
-Appearance + clothing + distinguishing features.
+Appearance + clothing + identifiers.
 
 ### ACTION
 
-Exactly what is happening.
+What is happening.
 
 ### ENVIRONMENT
 
-Location + background + cultural context.
-
-### COMPOSITION
-
-Camera framing + subject placement.
+Location + relevant background details.
 
 ### EXPRESSION
 
-Facial expression + body language.
+Face + body language.
+
+### COMPOSITION
+
+Framing + camera perspective + subject placement.
 
 ### LIGHTING
 
-Lighting and time of day.
+Time and lighting.
 
 ### STYLE
 
-Consistent overall visual style.
+Consistent stylized 3D animated style.
 
 ### MOOD
 
-The intended visual feeling.
+Light, playful, humorous visual mood.
 
 ### CONTINUITY
 
-Important elements that must remain consistent.
+Important elements that must remain unchanged.
 
 ### QUALITY
 
-High visual quality suitable for cinematic video generation.
+Polished, high-quality animated production suitable for video keyframes.
 
 ---
 
-# 18. NEGATIVE PROMPT / AVOIDANCE
+# 24. NEGATIVE PROMPT
 
-For every scene, include a concise avoidance instruction covering relevant problems such as:
+Avoid:
 
-* inconsistent character appearance
-* different clothing
-* extra fingers
-* malformed hands
-* duplicate characters
-* distorted faces
-* unnatural anatomy
-* floating objects
-* impossible poses
-* random text
-* watermarks
-* logos unless required
-* excessive clutter
-* inconsistent lighting
-* inconsistent art style
+* Photorealistic humans
+* Hyper-realistic faces
+* Realistic skin pores
+* Documentary photography
+* Live-action appearance
+* Gritty realism
+* Dark cinematic realism
+* Horror aesthetics
+* Serious documentary mood
+* Distorted anatomy
+* Extra fingers
+* Malformed hands
+* Duplicate characters
+* Duplicate objects
+* Floating objects
+* Impossible poses
+* Inconsistent clothing
+* Inconsistent face
+* Inconsistent hairstyle
+* Random text
+* Watermarks
+* Unnecessary logos
+* Excessive clutter
+* Inconsistent lighting
+* Inconsistent art style
 
-Do not create unnecessarily huge negative prompts.
-
-Keep them relevant.
-
----
-
-# 19. SCENE PACING
-
-Match the number and intensity of scenes to the voice-over.
-
-### Hook
-
-Use a visually striking image immediately.
-
-### Setup
-
-Establish the world and characters quickly.
-
-### Comedy escalation
-
-Increase visual absurdity, reactions or contrast.
-
-### Punchline
-
-Use the strongest visual composition.
-
-### Ending
-
-Create a memorable final visual that supports the final spoken line.
-
-The visual sequence should have a clear beginning, escalation and ending.
+The image must remain **stylized, animated, polished and playful**.
 
 ---
 
-# 20. DO NOT INVENT STORY ELEMENTS
-
-Do not introduce major characters, events or locations that are not supported by the voice-over unless they are necessary as harmless visual background elements.
-
-Do not change the meaning of the voice-over.
-
-Do not visually contradict factual statements.
-
-You may creatively interpret metaphors, jokes and sarcasm.
-
----
-
-# 21. HANDLE METAPHORS INTELLIGENTLY
+# 25. HANDLE METAPHORS & SARCASM
 
 If the voice-over contains:
 
-* sarcasm,
-* metaphor,
-* exaggeration,
-* idioms,
-* wordplay,
-* cultural references,
+* Sarcasm
+* Metaphors
+* Idioms
+* Exaggeration
+* Wordplay
+* Cultural references
 
-do NOT automatically visualize the words literally.
+do not automatically visualize the literal words.
 
 First determine the intended meaning.
 
 Then choose the most visually entertaining representation.
 
-Literal visualization is allowed only when it creates a deliberate and useful visual joke.
+Literal visualization is acceptable when it creates an intentional visual joke.
 
 ---
 
-# 22. HANDLE CULTURAL CONTEXT
+# 26. CULTURAL AUTHENTICITY
 
-Preserve relevant cultural details from the voice-over.
+Preserve relevant cultural context.
 
 When appropriate, accurately represent:
 
-* local clothing,
-* architecture,
-* streets,
-* vehicles,
-* shops,
-* public spaces,
-* food,
-* signage,
-* social behaviour,
-* cultural environments.
+* Clothing
+* Architecture
+* Streets
+* Vehicles
+* Shops
+* Public spaces
+* Food
+* Signs
+* Social behaviour
+* Local environments
 
-Avoid stereotypical or inaccurate representations.
+Do not use lazy stereotypes.
 
-The visual world should feel authentic to the story.
+The environment should feel authentic while the characters remain stylized.
 
 ---
 
-# 23. FINAL INTERNAL QUALITY CHECK
+# 27. STORY PACING
 
-Before producing the output, silently verify:
+Match the visual intensity to the voice-over.
+
+### HOOK
+
+Create the most immediately attention-grabbing visual.
+
+### SETUP
+
+Establish characters and location quickly.
+
+### ESCALATION
+
+Increase visual absurdity and character reactions.
+
+### PUNCHLINE
+
+Use a strong visual payoff.
+
+### END
+
+Create a memorable final frame supporting the final spoken line.
+
+---
+
+# 28. DO NOT INVENT MAJOR STORY ELEMENTS
+
+Do not introduce major:
+
+* Characters
+* Events
+* Locations
+* Objects
+* Plot developments
+
+that are unsupported by the voice-over unless they are necessary background elements.
+
+Do not change the meaning of the narration.
+
+Creative visual interpretation is encouraged.
+
+Story alteration is not.
+
+---
+
+# 29. FINAL INTERNAL QUALITY CHECK
+
+Before producing the final output, silently verify:
 
 ### STORY
 
-* Every major voice-over beat has a visual representation.
-* The visuals tell a coherent story.
-* The sequence has a beginning, escalation and ending.
+* Every major voice-over beat has a visual.
+* Visuals tell a coherent story.
+* Beginning → escalation → ending is clear.
 
 ### CHARACTER
 
-* Recurring characters remain visually identical.
+* Recurring characters remain identical.
 * Clothing remains consistent.
 * Face/hair/body remain consistent.
-* Character actions are physically clear.
+* Expressions are readable.
+* Actions are physically clear.
 
 ### ENVIRONMENT
 
 * Locations remain consistent.
 * Background details make sense.
-* Lighting and time of day are coherent.
+* Lighting/time-of-day logic is consistent.
 
-### VISUAL QUALITY
+### STYLE
 
-* Vertical 9:16 composition.
-* Strong subject hierarchy.
-* Clear foreground/background separation.
-* Cinematic composition.
-* Visually interesting.
-* Suitable for animation/video generation.
+* Characters are clearly stylized.
+* No photorealistic humans.
+* No hyper-realistic skin.
+* No documentary aesthetic.
+* Overall look remains playful and animated.
+
+### VIDEO
+
+* Vertical 9:16.
+* Clear subject separation.
+* Strong composition.
+* Animation-friendly poses.
+* Clear depth.
+* Suitable as video keyframes.
 
 ### CONTINUITY
 
-* Scene-to-scene transitions make sense.
+* Scene transitions make sense.
 * Camera changes are intentional.
 * Character orientation is coherent.
 * Props remain consistent.
 
-### LANGUAGE
-
-* Voice-over meaning was correctly understood.
-* Cultural references were correctly interpreted.
-* Visuals reflect the intended meaning rather than literal translation.
-
 ### COMEDY
 
 * Visual humour supports the narration.
-* No random jokes were added.
-* The strongest comedic moments receive the strongest visuals.
+* No random jokes.
+* Strong comedic beats receive strong visuals.
+* Visuals remain light even when the topic itself is serious.
 
-If any requirement fails, revise the scene plan before producing the final output.
+### LANGUAGE
+
+* Voice-over language was correctly understood.
+* Sarcasm and metaphors were correctly interpreted.
+* Cultural references were visually understood.
+
+If any requirement fails, revise the scene plan before producing the final answer.
 
 ---
 
-# 24. OUTPUT FORMAT
-
-Produce the following sections.
+# 30. OUTPUT FORMAT
 
 ## A. VOICE-OVER ANALYSIS
 
-Briefly provide:
+Provide briefly:
 
-* Detected language
-* Core topic
-* Overall visual concept
-* Overall visual style
-* Main comedic idea
+**Detected Language:**
+**Core Topic:**
+**Overall Visual Concept:**
+**Overall Visual Style:**
+**Main Comedic Idea:**
 
-Do not rewrite or translate the full voice-over.
+Do not rewrite the full voice-over.
 
 ---
 
@@ -775,9 +945,7 @@ For every recurring character:
 **Clothing:**
 **Accessories:**
 **Personality:**
-**Signature visual identifiers:**
-
-This becomes the visual consistency reference for all scenes.
+**Signature Visual Identifiers:**
 
 ---
 
@@ -788,115 +956,132 @@ For every recurring location:
 **Location ID:**
 **Location:**
 **Architecture:**
-**Background elements:**
+**Background Elements:**
 **Props:**
-**Time of day:**
+**Time of Day:**
 **Weather:**
 **Lighting:**
-**Colour/visual identity:**
-**Continuity requirements:**
+**Colour/Visual Identity:**
+**Continuity Requirements:**
 
 ---
 
 ## D. SCENE-BY-SCENE BREAKDOWN
 
-Create approximately **8–12 scenes** for a typical 40–50 second Reel.
+Create approximately **8–12 scenes**.
 
-For each scene provide:
+For each scene:
 
 ### SCENE X
 
-**Voice-over segment:**
-Quote or briefly identify the relevant portion of the supplied voice-over.
+**Voice-over Segment:**
+Identify the relevant portion of the supplied voice-over.
 
-**Estimated duration:**
+**Estimated Duration:**
 X seconds
 
-**Scene purpose:**
-What this scene communicates.
+**Scene Purpose:**
+What the viewer should understand.
 
 **Characters:**
-Which characters appear.
+Characters appearing.
 
 **Action:**
-What they are doing.
+What is happening.
 
 **Environment:**
-Where it takes place.
+Where it happens.
 
-**Expression/body language:**
-How the characters behave.
+**Expression / Body Language:**
+Character reactions.
 
-**Camera/composition:**
-Shot type, framing and subject placement.
+**Camera / Composition:**
+Shot type, framing and placement.
 
 **Lighting:**
 Lighting conditions.
 
-**Visual transition:**
-How this scene connects to the next one.
+**Visual Transition:**
+How the scene connects to the next.
 
 ---
 
-## E. FINAL IMAGE-GENERATION PROMPTS
+# E. FINAL IMAGE-GENERATION PROMPTS
 
-For every scene, create ONE complete, self-contained image-generation prompt.
-
-Format:
+Create ONE complete, self-contained prompt for every scene.
 
 ### SCENE 1 — IMAGE PROMPT
 
-`[Complete production-ready image prompt]`
+`[Complete production-ready image-generation prompt]`
 
 ### SCENE 2 — IMAGE PROMPT
 
-`[Complete production-ready image prompt]`
+`[Complete production-ready image-generation prompt]`
 
 Continue for all scenes.
 
-Each prompt must independently contain the necessary:
+Every prompt must independently contain:
 
-* character description,
-* character action,
-* environment,
-* composition,
-* camera perspective,
-* lighting,
-* mood,
-* visual style,
-* continuity details,
-* vertical 9:16 requirement.
+* Character description
+* Character action
+* Environment
+* Composition
+* Camera perspective
+* Expression
+* Lighting
+* Visual style
+* Mood
+* Continuity requirements
+* Vertical 9:16 composition
+* Stylized non-photorealistic character direction
 
-Do NOT depend on previous prompts.
-
----
-
-## F. NEGATIVE PROMPT
-
-Provide one reusable negative prompt applicable to the entire sequence, plus scene-specific additions only where necessary.
+Do not depend on previous prompts.
 
 ---
 
-# FINAL INSTRUCTION
+# F. REUSABLE NEGATIVE PROMPT
 
-Read and understand the entire supplied VOICE-OVER SCRIPT before generating anything.
+Provide one concise negative prompt suitable for the entire sequence.
+
+Add scene-specific exclusions only when necessary.
+
+---
+
+# FINAL EXECUTION INSTRUCTION
+
+Read the **entire supplied VOICE-OVER SCRIPT first**.
 
 Automatically detect its language.
 
-Understand its meaning, humour, sarcasm, metaphors and cultural context.
+Understand its meaning, humour, sarcasm, metaphors, cultural context and intended jokes.
 
-Do not translate the voice-over unnecessarily.
+Do not translate the script unnecessarily.
 
-Convert the narration into a coherent **visual story**, not a literal sentence-by-sentence illustration.
+Transform it into a coherent **stylized animated visual story**.
 
-Create a consistent character and environment bible first.
+Create the:
 
-Then create the scene breakdown.
+1. Voice-over analysis
+2. Master Character Bible
+3. Master Environment Bible
+4. Scene-by-scene breakdown
+5. Self-contained image-generation prompts
+6. Reusable negative prompt
 
-Then create self-contained, production-ready image-generation prompts for every scene.
+Design every scene as a **vertical 9:16 animation-ready keyframe**.
 
-Every image must be designed for **vertical 9:16 short-form video** and must be suitable as a keyframe/source image for subsequent video generation.
+Maintain strict consistency in:
 
-Maintain strict character, environment, lighting and visual-style continuity across the entire sequence.
+**Character → Clothing → Face → Hair → Environment → Props → Lighting → Visual Style**
 
-**The final output must be detailed enough that another AI image generator can create the complete visual sequence without needing additional clarification.**
+The final visuals must be:
+
+**Stylized + Expressive + Cinematic + Playful + Humorous + Non-photorealistic**
+
+They must NOT look like:
+
+**Real people + live-action photography + documentary + gritty cinema + serious news visuals.**
+
+The ultimate goal is to create a **premium animated visual sequence that makes the voice-over more entertaining, visually clear and suitable for later AI video generation.**
+
+**Understand first. Visualize second. Maintain consistency throughout.**
