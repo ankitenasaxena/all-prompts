@@ -13,11 +13,11 @@ Here is the cleaner final version:
 
 ## INPUT
 
-**Target Country:** `<target country>`
+**Target Country:** `United States of America`
 
-**Topic:** `<topic>`
+**Topic:** `Geopolitics`
 
-**Language:** `<language>`
+**Language:** `English`
 
 ---
 
